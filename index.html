@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+ <body class="best-container">
+            <!-- <img src="./iStock-1081869336-1013x675.jpg" alt=""> -->
+            <h1 id="title">SURVEY FORM</h1>
+<p id=description>This is a survey form</p>
+<form id="survey-form">
+  <div class="boxes">
+    <label for="name" id="name-label">Name</label><br>
+  <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+  <label for="email" id="email-label">Email</label><br>
+  <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+  <label for="number" id="number-label">Age(optional)</label><br>
+  <input type="number" id="number" name="number" min="18" max="35" required placeholder="Ager"><br><br>
+</div>
+<div class="role">
+  <label for="dropdown">Which option best describes your current role? </label>
+  <select id="dropdown" name = "dropdown">
+   
+            <option value = "Student" >Student</option>
+            <option value="Full time Learner">Full Time Job</option>
+            <option value="Full time Learner">Full Time Learner</option>
+            <option value="Prefer not to say">Prefer not to say</option>
+            <option value="Others">Others</option>
+  </select> <br><br>
+</div>
+<br><br>
+  
+    <div class="elite"> <label for="dropdown">Would you recommend freeCodeCamp to a friend?</label><br>
+  <input class="dropdowns" type="radio" name="attribute" value="definitely">Definitely<br>
+        
+         <input class="dropdown" type="radio" name="attribute" value="Maybe">Maybe <br>
+         <input class="dropdown" type="radio" name="attribute" value="Not sure">Not sure<br><br>
+        </div>
+
+<label for="dropdown">What is your favorite feature of freeCodeCamp? </label><br>
+  <select class="dropdown" name = "dropdown">
+            <option value = "Challenges" >Challenges</option>
+            <option value="Project">Project</option>
+            <option value="Community">Community</option>
+            <option value="Open source">Open source</option>
+  </select> <br><br>
+
+  
+<div class="choice">
+  <label id="checkbox">What would you like to see improved? (Check all that apply) </label><br>
+  <input type="checkbox" id="online" name="checkbox" value="Front-end Projects">
+ </div>
+
+<textarea id="comments" name="textarea" rows="4" cols="50" placeholder="enter your comments here..."></textarea><br><br>
+
+ <input id="submit" type="submit" value="Submit">
+
+</form>  
+</body>
+</html>
